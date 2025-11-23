@@ -28,6 +28,7 @@ Ep-17
  -You should not be access other routes without login
  -If token is not present ,redirect to login page
  -Logout feature add
+ -Get the feed and add the feed in the store
+ -Build the user card on feed
 
  
-45:12

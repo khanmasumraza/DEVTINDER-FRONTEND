@@ -1,5 +1,6 @@
 #DevTinder
 
+Epi-15
 -Create a Vite + React Application
 -Remove unecessary code and create a Hello World
 -Install tailwind
@@ -11,6 +12,7 @@
 -Create an Outlet in your Body component
 -Create a footer
 
+Epi-16
 -Create a login Page
 -Install axios
 -CORS -install cors in backend =>add middleware to with configuration:origin,credientials:true
@@ -22,9 +24,10 @@
  - Navbar should  update as soon as user logs in
  -Refactor our code to add constants file + create a components folder
 
-
+Ep-17
  -You should not be access other routes without login
  -If token is not present ,redirect to login page
  -Logout feature add
 
  
+45:12

@@ -52,6 +52,11 @@ console.err(err)
         <li>
           <Link to="/connections">Connections</Link>
           </li>
+
+          <li>
+          <Link to="/requests">Request</Link>
+          </li>
+
         <li><a onClick={handleLogout}>Logout</a></li>
       </ul>
     </div>

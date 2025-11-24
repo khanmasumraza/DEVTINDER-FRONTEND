@@ -32,6 +32,7 @@ Ep-17
  -Build the user card on feed
  -Edit profile feature
  -Show Toast message on save of profile
- -Create connection page
+ -Create a page where see all  connection 
+ - Create a page See all my connection requests
 
- 
+ 33:12

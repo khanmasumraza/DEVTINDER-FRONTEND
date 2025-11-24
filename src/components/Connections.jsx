@@ -33,10 +33,10 @@ const res=await axios.get(BASE_URL + "/user/connections",{
     <h1 className="text-bold text-2xl">Connections</h1>
 
     {connections.map((connection)=>{
-     const{firstname,lastname,photoUrl,about,gender}=connection;
+     const{_id,firstname,lastname,photoUrl,about,gender}=connection;
 
      return(
-      <div className="m-4 p-4  rounded-lg bg-base-200 w-1/2 mx-auto">
+      <div key={_id} className="m-4 p-4  rounded-lg bg-base-200 w-1/2 mx-auto">
         <div><img alt="photo" className="w-20 h-20 rounded-full"  src={photoUrl} /></div>
         <div className="text-left my-4" >
           <h2 className="font-bold text-xl">

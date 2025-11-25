@@ -32,12 +32,16 @@ Ep-17
  -Build the user card on feed
  -Edit profile feature
  -Show Toast message on save of profile
+
+ Ep-18
  -Create a page where see all  connection 
  - Create a page See all my connection requests
 -Feature - Accept/Reject Connection Requests
 
-Remianing
-
+Ep-19
 -Send/ignore  the user card from feed
+
+
+Ramoianing
 -Signup new user
 -e2e testing

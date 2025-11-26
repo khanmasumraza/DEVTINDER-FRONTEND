@@ -41,8 +41,4 @@ Ep-17
 Ep-19
 -Send/ignore  the user card from feed
 -Signup new user
-
-
-Ramoianing
-
 -e2e testing

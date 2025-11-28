@@ -42,3 +42,17 @@ Ep-19
 -Send/ignore  the user card from feed
 -Signup new user
 -e2e testing
+
+# Deployemnt
+
+-Frontend 
+-Backend
+
+# Adding a custom domain name 
+
+-Purchasing domain name from godaddy
+-signup on cloudfare & add a new domain name
+-change the nameservers on godaddy and point it to cloudfare
+-wait for sometime  till your  namservers are update ~ 15 minutes
+-DNS record:A devtinder.in 43.204.96.49
+-Enable SSL for website

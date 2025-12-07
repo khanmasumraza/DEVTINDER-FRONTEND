@@ -6,17 +6,22 @@ const Premium = () => {
 
   const[isUserPremium,setIsUserPremium]=useState(false)
 
-useEffect(()=>{
-  verifyPremiumUser();
-},[])
-
   const verifyPremiumUser =async ()=>{
-    const res= await axios.get(BASE_URL+"/premium/verify",{withCredentials:true})
-  }
-
+    try{
+ const res= await axios.get(BASE_URL+"/premium/verify",{withCredentials:true}) 
 if(res.data.isPremium){
   setIsUserPremium(true);
 }
+    }
+    catch(err){
+      console.log(err)
+    }
+  }
+
+
+ useEffect(() => {
+    verifyPremiumUser()
+  }, [])
 
 
     const handleBuyClick=async (type)=>{

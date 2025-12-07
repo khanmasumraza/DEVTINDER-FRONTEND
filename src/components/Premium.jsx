@@ -72,7 +72,7 @@ handler:verifyPremiumUser
   <div className="divider divider-horizontal">OR</div>
   <div className="card bg-base-300 rounded-box grid h-70 grow place-items-center">
 
-   <h1 className='font-bold text-3xl'>Silver Membership</h1>
+   <h1 className='font-bold text-3xl'>Gold Membership</h1>
     <ul>
       <li> - Chat with other people</li>
       <li> -Infinite connections Requests per day</li>
